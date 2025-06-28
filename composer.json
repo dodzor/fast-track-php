@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Monolog\\": "src/Monolog/",
+            "MyLib\\": "src/MyLib/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
