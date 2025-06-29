@@ -2,10 +2,8 @@
 
 namespace MyLib\Tools;
 
-class MathTool
-{
-    public function add($a, $b)
-    {
+class MathTool {
+    public function add($a, $b) {
         return $a + $b;
     }
-} 
+}

@@ -2,8 +2,9 @@
 
 namespace App\Services\Logger;
 
-class Logger {
-    public function log($message) {
+trait LoggerTrait {
+    public function log(string $message) {
         echo "Logger: $message\n";
     }
 }
+
